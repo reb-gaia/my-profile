@@ -3,7 +3,7 @@
   background: -webkit-linear-gradient(to right, #feeae6, #fedbd0);
   background: linear-gradient(to right, #feeae6, #fedbd0);
 
-  min-height: 100vh; /* altura */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -20,15 +20,39 @@
   align-self: center;
   padding: 3rem;
   margin: 30px 0px;
-  background: #A29BE8;
-  background: -webkit-linear-gradient(to right, #9BBEE8, #A29BE8);
-  background: linear-gradient(to right, #9BBEE8, #A29BE8);
+  background: #a29be8;
+  background: -webkit-linear-gradient(to right, #9bbee8, #a29be8);
+  background: linear-gradient(to right, #9bbee8, #a29be8);
 
   border-radius: 600px;
-  box-shadow:  24px 24px 48px #9BBEE8,
-              -24px -24px 48px #f3e9ff;
+  box-shadow: 24px 24px 48px #9bbee8, -24px -24px 48px #f3e9ff;
 }
 
 img {
   width: 10rem;
+}
+
+.home {
+  background: #fedbd0;
+  background: -webkit-linear-gradient(to right, #feeae6, #fedbd0);
+  background: linear-gradient(to right, #feeae6, #fedbd0);
+
+  height: 100%; /* altura */
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.about {
+  background-color: #442c2e;
+  padding: 0% 10%;
+}
+
+.academic {
+  background-color: #fedbd0;
+  padding: 0% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; /* permite quebrar a linha */
 }

@@ -1,11 +1,10 @@
 .header {
     display: flex;
-    flex-direction: row;
-    align-self: flex-end; /*alinhar na horizontal */
-    /*justify-content: center; alinhar ao centro vertical */
-    color: #442c2e;
-    width: auto;
-    padding-right: 50px;
+    background-color: #442c2e;
+    width: 100%;
+    position: fixed;
+    color: #fedbd0;
+    justify-content: flex-end;
 }
 
 h3 {
